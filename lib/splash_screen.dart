@@ -10,16 +10,16 @@ class SplashScreen extends StatefulWidget {
 
 class _SplashScreenState extends State<SplashScreen> {
   void startTimer() {
-    const oneSec = Duration(seconds: 3);
+    // const oneSec = Duration(seconds: 3);
 
-    Timer.periodic(
-      oneSec,
-      (Timer timer) {
-        print("Timed: ");
-        Navigator.of(context).pushNamed("/welcome");
-        timer.cancel();
-      },
-    );
+    // Timer.periodic(
+    //   oneSec,
+    //   (Timer timer) {
+    //     print("Timed: ");
+    //     Navigator.of(context).pushNamed("/welcome");
+    //     timer.cancel();
+    //   },
+    // );
   }
 
   @override
